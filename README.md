@@ -1,6 +1,6 @@
 # Json Parser
 This project is based on Parsing the json and dumping it to CSV via Flask api post method. 
-- Huge json file can be parsed by just executing the main.py file and open the url http://127.0.0.1:5000/parsing.
+- Huge json file can be parsed by just executing the main.py file and open the url http://127.0.0.1:5000/parsing in postman.
 - please provide the POST method and provide body value as json body object ( take example_account-model.json file as example)
 
 - dumping the result in CSV file.
