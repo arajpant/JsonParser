@@ -1,0 +1,1287 @@
+{
+	"name": "cdm",
+	"description": "cdm",
+	"version": "1.0",
+	"entities": [
+		{
+			"$type": "LocalEntity",
+			"name": "account",
+			"description": "account",
+			"annotations": [
+				{
+					"name": "Athena:PartitionGranularity",
+					"value": "Month"
+				},
+				{
+					"name": "Athena:InitialSyncState",
+					"value": "Completed"
+				},
+				{
+					"name": "Athena:InitialSyncDataCompletedTime",
+					"value": "1/20/2022 5:26:58 AM"
+				}
+			],
+			"attributes": [
+				{
+					"name": "Id",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "SinkCreatedOn",
+					"dataType": "dateTime",
+					"maxLength": -1
+				},
+				{
+					"name": "SinkModifiedOn",
+					"dataType": "dateTime",
+					"maxLength": -1
+				},
+				{
+					"name": "statecode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "statuscode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "address1_addresstypecode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "address1_shippingmethodcode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "accountcategorycode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "address1_freighttermscode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "preferredappointmenttimecode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "accountclassificationcode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "customersizecode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "ownershipcode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "address2_freighttermscode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "preferredcontactmethodcode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "industrycode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "businesstypecode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "shippingmethodcode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "paymenttermscode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "accountratingcode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "address2_addresstypecode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "customertypecode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "address2_shippingmethodcode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "preferredappointmentdaycode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "territorycode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "donotsendmm",
+					"dataType": "boolean",
+					"maxLength": -1
+				},
+				{
+					"name": "creditonhold",
+					"dataType": "boolean",
+					"maxLength": -1
+				},
+				{
+					"name": "donotbulkpostalmail",
+					"dataType": "boolean",
+					"maxLength": -1
+				},
+				{
+					"name": "isprivate",
+					"dataType": "boolean",
+					"maxLength": -1
+				},
+				{
+					"name": "donotbulkemail",
+					"dataType": "boolean",
+					"maxLength": -1
+				},
+				{
+					"name": "donotfax",
+					"dataType": "boolean",
+					"maxLength": -1
+				},
+				{
+					"name": "donotpostalmail",
+					"dataType": "boolean",
+					"maxLength": -1
+				},
+				{
+					"name": "donotemail",
+					"dataType": "boolean",
+					"maxLength": -1
+				},
+				{
+					"name": "marketingonly",
+					"dataType": "boolean",
+					"maxLength": -1
+				},
+				{
+					"name": "followemail",
+					"dataType": "boolean",
+					"maxLength": -1
+				},
+				{
+					"name": "merged",
+					"dataType": "boolean",
+					"maxLength": -1
+				},
+				{
+					"name": "donotphone",
+					"dataType": "boolean",
+					"maxLength": -1
+				},
+				{
+					"name": "participatesinworkflow",
+					"dataType": "boolean",
+					"maxLength": -1
+				},
+				{
+					"name": "createdonbehalfby",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "createdonbehalfby_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "originatingleadid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "originatingleadid_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "territoryid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "territoryid_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "slaid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "slaid_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "parentaccountid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "parentaccountid_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "primarycontactid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "primarycontactid_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "modifiedby",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "modifiedby_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "modifiedonbehalfby",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "modifiedonbehalfby_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "owninguser",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "owninguser_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "createdbyexternalparty",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "createdbyexternalparty_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "owningteam",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "owningteam_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "owningbusinessunit",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "owningbusinessunit_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "slainvokedid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "slainvokedid_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "preferredequipmentid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "preferredequipmentid_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "transactioncurrencyid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "transactioncurrencyid_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "masterid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "masterid_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "modifiedbyexternalparty",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "modifiedbyexternalparty_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "defaultpricelevelid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "defaultpricelevelid_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "createdby",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "createdby_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "preferredserviceid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "preferredserviceid_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "preferredsystemuserid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "preferredsystemuserid_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "ownerid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "ownerid_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "aging90",
+					"dataType": "decimal",
+					"maxLength": -1
+				},
+				{
+					"name": "openrevenue",
+					"dataType": "decimal",
+					"maxLength": -1
+				},
+				{
+					"name": "aging30",
+					"dataType": "decimal",
+					"maxLength": -1
+				},
+				{
+					"name": "aging60_base",
+					"dataType": "decimal",
+					"maxLength": -1
+				},
+				{
+					"name": "creditlimit",
+					"dataType": "decimal",
+					"maxLength": -1
+				},
+				{
+					"name": "openrevenue_base",
+					"dataType": "decimal",
+					"maxLength": -1
+				},
+				{
+					"name": "creditlimit_base",
+					"dataType": "decimal",
+					"maxLength": -1
+				},
+				{
+					"name": "marketcap",
+					"dataType": "decimal",
+					"maxLength": -1
+				},
+				{
+					"name": "aging60",
+					"dataType": "decimal",
+					"maxLength": -1
+				},
+				{
+					"name": "revenue",
+					"dataType": "decimal",
+					"maxLength": -1
+				},
+				{
+					"name": "revenue_base",
+					"dataType": "decimal",
+					"maxLength": -1
+				},
+				{
+					"name": "aging90_base",
+					"dataType": "decimal",
+					"maxLength": -1
+				},
+				{
+					"name": "marketcap_base",
+					"dataType": "decimal",
+					"maxLength": -1
+				},
+				{
+					"name": "aging30_base",
+					"dataType": "decimal",
+					"maxLength": -1
+				},
+				{
+					"name": "emailaddress3",
+					"dataType": "string",
+					"maxLength": 200
+				},
+				{
+					"name": "emailaddress2",
+					"dataType": "string",
+					"maxLength": 200
+				},
+				{
+					"name": "emailaddress1",
+					"dataType": "string",
+					"maxLength": 200
+				},
+				{
+					"name": "masteraccountidyominame",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "address1_city",
+					"dataType": "string",
+					"maxLength": 160
+				},
+				{
+					"name": "address1_line1",
+					"dataType": "string",
+					"maxLength": 500
+				},
+				{
+					"name": "modifiedon",
+					"dataType": "dateTime",
+					"maxLength": -1
+				},
+				{
+					"name": "overriddencreatedon",
+					"dataType": "dateTime",
+					"maxLength": -1
+				},
+				{
+					"name": "websiteurl",
+					"dataType": "string",
+					"maxLength": 400
+				},
+				{
+					"name": "address1_longitude",
+					"dataType": "double",
+					"maxLength": -1
+				},
+				{
+					"name": "entityimage_timestamp",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "sharesoutstanding",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "primarycontactidname",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "transactioncurrencyidname",
+					"dataType": "string",
+					"maxLength": 200
+				},
+				{
+					"name": "preferredsystemuseridyominame",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "telephone1",
+					"dataType": "string",
+					"maxLength": 100
+				},
+				{
+					"name": "utcconversiontimezonecode",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "opendeals_date",
+					"dataType": "dateTime",
+					"maxLength": -1
+				},
+				{
+					"name": "modifiedbyexternalpartyyominame",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "masteraccountidname",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "preferredsystemuseridname",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "address2_stateorprovince",
+					"dataType": "string",
+					"maxLength": 100
+				},
+				{
+					"name": "address2_country",
+					"dataType": "string",
+					"maxLength": 160
+				},
+				{
+					"name": "address2_line2",
+					"dataType": "string",
+					"maxLength": 500
+				},
+				{
+					"name": "address1_line3",
+					"dataType": "string",
+					"maxLength": 500
+				},
+				{
+					"name": "name",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "onholdtime",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "owningbusinessunitname",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "parentaccountidname",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "originatingleadidname",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "address1_utcoffset",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "numberofemployees",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "modifiedbyexternalpartyname",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "exchangerate",
+					"dataType": "decimal",
+					"maxLength": -1
+				},
+				{
+					"name": "address2_county",
+					"dataType": "string",
+					"maxLength": 100
+				},
+				{
+					"name": "telephone3",
+					"dataType": "string",
+					"maxLength": 100
+				},
+				{
+					"name": "address2_city",
+					"dataType": "string",
+					"maxLength": 160
+				},
+				{
+					"name": "address2_latitude",
+					"dataType": "double",
+					"maxLength": -1
+				},
+				{
+					"name": "createdon",
+					"dataType": "dateTime",
+					"maxLength": -1
+				},
+				{
+					"name": "address1_composite",
+					"dataType": "string",
+					"maxLength": 9999
+				},
+				{
+					"name": "opendeals_state",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "address2_postalcode",
+					"dataType": "string",
+					"maxLength": 40
+				},
+				{
+					"name": "lastusedincampaign",
+					"dataType": "dateTime",
+					"maxLength": -1
+				},
+				{
+					"name": "processid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "owneridyominame",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "entityimage_url",
+					"dataType": "string",
+					"maxLength": 400
+				},
+				{
+					"name": "teamsfollowed",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "address2_line3",
+					"dataType": "string",
+					"maxLength": 500
+				},
+				{
+					"name": "description",
+					"dataType": "string",
+					"maxLength": 9999
+				},
+				{
+					"name": "timezoneruleversionnumber",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "address1_county",
+					"dataType": "string",
+					"maxLength": 100
+				},
+				{
+					"name": "createdbyname",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "address2_postofficebox",
+					"dataType": "string",
+					"maxLength": 40
+				},
+				{
+					"name": "address2_telephone1",
+					"dataType": "string",
+					"maxLength": 100
+				},
+				{
+					"name": "address2_telephone2",
+					"dataType": "string",
+					"maxLength": 100
+				},
+				{
+					"name": "address2_telephone3",
+					"dataType": "string",
+					"maxLength": 100
+				},
+				{
+					"name": "originatingleadidyominame",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "address1_addressid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "traversedpath",
+					"dataType": "string",
+					"maxLength": 2500
+				},
+				{
+					"name": "territoryidname",
+					"dataType": "string",
+					"maxLength": 400
+				},
+				{
+					"name": "yominame",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "createdonbehalfbyname",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "address2_name",
+					"dataType": "string",
+					"maxLength": 400
+				},
+				{
+					"name": "openrevenue_state",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "primarysatoriid",
+					"dataType": "string",
+					"maxLength": 400
+				},
+				{
+					"name": "owneridtype",
+					"dataType": "string",
+					"maxLength": 4000
+				},
+				{
+					"name": "entityimageid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "timespentbymeonemailandmeetings",
+					"dataType": "string",
+					"maxLength": 2500
+				},
+				{
+					"name": "primarytwitterid",
+					"dataType": "string",
+					"maxLength": 256
+				},
+				{
+					"name": "owneridname",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "modifiedonbehalfbyname",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "createdonbehalfbyyominame",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "address2_composite",
+					"dataType": "string",
+					"maxLength": 9999
+				},
+				{
+					"name": "address1_country",
+					"dataType": "string",
+					"maxLength": 160
+				},
+				{
+					"name": "address1_stateorprovince",
+					"dataType": "string",
+					"maxLength": 100
+				},
+				{
+					"name": "preferredserviceidname",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "createdbyexternalpartyyominame",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "address1_telephone1",
+					"dataType": "string",
+					"maxLength": 100
+				},
+				{
+					"name": "address1_telephone2",
+					"dataType": "string",
+					"maxLength": 100
+				},
+				{
+					"name": "address1_telephone3",
+					"dataType": "string",
+					"maxLength": 100
+				},
+				{
+					"name": "address1_postofficebox",
+					"dataType": "string",
+					"maxLength": 40
+				},
+				{
+					"name": "slainvokedidname",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "fax",
+					"dataType": "string",
+					"maxLength": 100
+				},
+				{
+					"name": "sic",
+					"dataType": "string",
+					"maxLength": 40
+				},
+				{
+					"name": "address2_utcoffset",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "accountnumber",
+					"dataType": "string",
+					"maxLength": 40
+				},
+				{
+					"name": "address2_fax",
+					"dataType": "string",
+					"maxLength": 100
+				},
+				{
+					"name": "address2_longitude",
+					"dataType": "double",
+					"maxLength": -1
+				},
+				{
+					"name": "ftpsiteurl",
+					"dataType": "string",
+					"maxLength": 400
+				},
+				{
+					"name": "preferredequipmentidname",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "address1_primarycontactname",
+					"dataType": "string",
+					"maxLength": 300
+				},
+				{
+					"name": "modifiedbyyominame",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "lastonholdtime",
+					"dataType": "dateTime",
+					"maxLength": -1
+				},
+				{
+					"name": "address1_line2",
+					"dataType": "string",
+					"maxLength": 500
+				},
+				{
+					"name": "modifiedonbehalfbyyominame",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "openrevenue_date",
+					"dataType": "dateTime",
+					"maxLength": -1
+				},
+				{
+					"name": "address1_postalcode",
+					"dataType": "string",
+					"maxLength": 40
+				},
+				{
+					"name": "tickersymbol",
+					"dataType": "string",
+					"maxLength": 20
+				},
+				{
+					"name": "stageid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "address2_upszone",
+					"dataType": "string",
+					"maxLength": 8
+				},
+				{
+					"name": "createdbyexternalpartyname",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "defaultpricelevelidname",
+					"dataType": "string",
+					"maxLength": 200
+				},
+				{
+					"name": "stockexchange",
+					"dataType": "string",
+					"maxLength": 40
+				},
+				{
+					"name": "address2_addressid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "importsequencenumber",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "telephone2",
+					"dataType": "string",
+					"maxLength": 100
+				},
+				{
+					"name": "versionnumber",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "accountid",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "address1_name",
+					"dataType": "string",
+					"maxLength": 400
+				},
+				{
+					"name": "address1_fax",
+					"dataType": "string",
+					"maxLength": 100
+				},
+				{
+					"name": "address1_latitude",
+					"dataType": "double",
+					"maxLength": -1
+				},
+				{
+					"name": "primarycontactidyominame",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "modifiedbyname",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "createdbyyominame",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "address2_line1",
+					"dataType": "string",
+					"maxLength": 500
+				},
+				{
+					"name": "address1_upszone",
+					"dataType": "string",
+					"maxLength": 8
+				},
+				{
+					"name": "slaname",
+					"dataType": "string",
+					"maxLength": 200
+				},
+				{
+					"name": "parentaccountidyominame",
+					"dataType": "string",
+					"maxLength": 320
+				},
+				{
+					"name": "address2_primarycontactname",
+					"dataType": "string",
+					"maxLength": 300
+				},
+				{
+					"name": "opendeals",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "cr596_state",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "cr596_accountindustry",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "cr596_accountstatus",
+					"dataType": "int64",
+					"maxLength": -1
+				},
+				{
+					"name": "cr596_metro",
+					"dataType": "guid",
+					"maxLength": -1
+				},
+				{
+					"name": "cr596_metro_entitytype",
+					"dataType": "string",
+					"maxLength": 128
+				},
+				{
+					"name": "cr596_metroname",
+					"dataType": "string",
+					"maxLength": 4000
+				},
+				{
+					"name": "cr596_ishq",
+					"dataType": "boolean",
+					"maxLength": -1
+				},
+				{
+					"name": "msdyn_gdproptout",
+					"dataType": "boolean",
+					"maxLength": -1
+				},
+				{
+					"name": "cr596_industry",
+					"dataType": "string",
+					"maxLength": 4000
+				}
+			],
+			"partitions": [
+				{
+					"name": "2021-12",
+					"location": "https://qklycrmprod.dfs.core.windows.net:443/dataverse-qklycrmprodu-unq6a706f170e034e788203706489ece/account/Snapshot/2021-12_1643755710.csv",
+					"cdm:traits": [
+						{
+							"traitReference": "is.partition.format.CSV",
+							"arguments": [
+								{
+									"name": "raggedRight",
+									"value": "true"
+								}
+							]
+						}
+					],
+					"fileFormatSettings": {
+						"$type": "CsvFormatSettings",
+						"columnHeaders": false,
+						"delimiter": ",",
+						"quoteStyle": "QuoteStyle.Csv",
+						"csvStyle": "CsvStyle.QuoteAlways",
+						"encoding": "UTF-8"
+					},
+					"annotations": [
+						{
+							"name": "Athena:PartitionYear",
+							"value": "2021"
+						},
+						{
+							"name": "Athena:PartitionMonth",
+							"value": "12"
+						}
+					]
+				},
+				{
+					"name": "2022-01",
+					"location": "https://qklycrmprod.dfs.core.windows.net:443/dataverse-qklycrmprodu-unq6a706f170e034e788203706489ece/account/Snapshot/2022-01_1643820510.csv",
+					"cdm:traits": [
+						{
+							"traitReference": "is.partition.format.CSV",
+							"arguments": [
+								{
+									"name": "raggedRight",
+									"value": "true"
+								}
+							]
+						}
+					],
+					"fileFormatSettings": {
+						"$type": "CsvFormatSettings",
+						"columnHeaders": false,
+						"delimiter": ",",
+						"quoteStyle": "QuoteStyle.Csv",
+						"csvStyle": "CsvStyle.QuoteAlways",
+						"encoding": "UTF-8"
+					},
+					"annotations": [
+						{
+							"name": "Athena:PartitionYear",
+							"value": "2022"
+						},
+						{
+							"name": "Athena:PartitionMonth",
+							"value": "01"
+						}
+					]
+				},
+				{
+					"name": "output",
+					"location": "https://qklycrmprod.dfs.core.windows.net:443/dataverse-qklycrmprodu-unq6a706f170e034e788203706489ece/account/Snapshot/output_1643698109.csv",
+					"cdm:traits": [
+						{
+							"traitReference": "is.partition.format.CSV",
+							"arguments": [
+								{
+									"name": "raggedRight",
+									"value": "true"
+								}
+							]
+						}
+					],
+					"fileFormatSettings": {
+						"$type": "CsvFormatSettings",
+						"columnHeaders": false,
+						"delimiter": ",",
+						"quoteStyle": "QuoteStyle.Csv",
+						"csvStyle": "CsvStyle.QuoteAlways",
+						"encoding": "UTF-8"
+					},
+					"annotations": [
+						{
+							"name": "Athena:PartitionYear",
+							"value": "output"
+						},
+						{
+							"name": "Athena:PartitionMonth",
+							"value": ""
+						}
+					]
+				},
+				{
+					"name": "2022-02",
+					"location": "https://qklycrmprod.dfs.core.windows.net:443/dataverse-qklycrmprodu-unq6a706f170e034e788203706489ece/account/Snapshot/2022-02_1643870909.csv",
+					"cdm:traits": [
+						{
+							"traitReference": "is.partition.format.CSV",
+							"arguments": [
+								{
+									"name": "raggedRight",
+									"value": "true"
+								}
+							]
+						}
+					],
+					"fileFormatSettings": {
+						"$type": "CsvFormatSettings",
+						"columnHeaders": false,
+						"delimiter": ",",
+						"quoteStyle": "QuoteStyle.Csv",
+						"csvStyle": "CsvStyle.QuoteAlways",
+						"encoding": "UTF-8"
+					},
+					"annotations": [
+						{
+							"name": "Athena:PartitionYear",
+							"value": "2022"
+						},
+						{
+							"name": "Athena:PartitionMonth",
+							"value": "02"
+						}
+					]
+				}
+			]
+		}
+	]
+}
